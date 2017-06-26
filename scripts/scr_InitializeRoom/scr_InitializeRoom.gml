@@ -24,7 +24,7 @@ for (_y = 0; _y < ySections; _y++) {
 
 
 // Create Main Path
-
+scr_CreateMainPath();
 
 // Initialize Our Sections (loading sections as strings into memory)
 
