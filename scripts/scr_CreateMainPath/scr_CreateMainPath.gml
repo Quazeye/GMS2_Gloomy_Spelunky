@@ -8,19 +8,19 @@ sections[currentX, currentY] = 1; // Start with room type of exit left and right
 
 while (currentY < 4) {
 	if (newDirection == 0) {
-		newDirection = choose(1, 1, 2, 2, 3);
+		newDirection = choose(1, 1, 2, 2, 3); // 1 = left, 2 = right, 3 = down.
 	}
 	
 	// Move us left if newDirection = 1
 	if (newDirection == 1) {
 		if (currentX > 0) {
-			sections[--currentX, currentY] = 1; // Set room type to entrance left and entrance right
+			sections[--currentX, currentY] = 1; // Set room type to exit left and exit right.
 			newDirection = 0;
 		} else {
 			// Can't move left, need to move down. Need to change current room to a "2" and next room to a "3".
 			if (currentY < 3) {
-				sections[currentX, currentY] = 2;
-				sections[currentX, ++currentY] = 3;
+				sections[currentX, currentY] = 2; // Type 2 ensures there is an exit in floor.
+				sections[currentX, ++currentY] = 3; // Type 3 ensures there is an entrance in ceiling.
 				newDirection = 2;
 			} else {
 				++currentY; // Exit out of while loop as it will now be 4
@@ -33,7 +33,7 @@ while (currentY < 4) {
 			sections[++currentX, currentY] = 1; // Set room type to entrance left and entrance right
 			newDirection = 0;
 		} else {
-			// Can't move left, need to move down. Need to change current room to a "2" and next room to a "3".
+			// Can't move right, need to move down. Need to change current room to a "2" and next room to a "3".
 			if (currentY < 3) {
 				sections[currentX, currentY] = 2;
 				sections[currentX, ++currentY] = 3;

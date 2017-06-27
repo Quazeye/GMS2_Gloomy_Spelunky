@@ -26,6 +26,10 @@ for (_y = 0; _y < ySections; _y++) {
 // Create Main Path
 scr_CreateMainPath();
 
+for (_y = 0; _y < ySections; y++) {
+	show_debug_message(string(sections[0, _y]) + string(sections[1, _y]) + string(sections[2, _y]) + string(sections[3, _y]))
+}
+
 // Initialize Our Sections (loading sections as strings into memory)
 
 
