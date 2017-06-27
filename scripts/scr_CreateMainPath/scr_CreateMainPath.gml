@@ -15,7 +15,7 @@ while (currentY < 4) {
 	if (newDirection == 1) {
 		if (currentX > 0) {
 			sections[--currentX, currentY] = 1; // Set room type to exit left and exit right.
-			newDirection = 0;
+			newDirection = choose(1, 1, 1, 3);
 		} else {
 			// Can't move left, need to move down. Need to change current room to a "2" and next room to a "3".
 			if (currentY < 3) {
@@ -31,7 +31,7 @@ while (currentY < 4) {
 	else if (newDirection == 2) {
 		if (currentX < 3) {
 			sections[++currentX, currentY] = 1; // Set room type to entrance left and entrance right
-			newDirection = 0;
+			newDirection = choose(2, 2, 2, 3);
 		} else {
 			// Can't move right, need to move down. Need to change current room to a "2" and next room to a "3".
 			if (currentY < 3) {
