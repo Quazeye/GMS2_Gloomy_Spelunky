@@ -31,9 +31,12 @@ for (_y = 0; _y < ySections; _y++) {
 }
 
 // Initialize Our Sections (loading sections as strings into memory)
-
+scr_InitializeAllSections();
 
 // Create Our Level
-
+scr_GenerateLevel();
 
 // Clean Up Memory (De-Initialize Our Sections)
+ds_list_destroy(sectionLeftBottomRightList);
+ds_list_destroy(sectionLeftRightList);
+ds_list_destroy(sectionLeftTopRightList);
