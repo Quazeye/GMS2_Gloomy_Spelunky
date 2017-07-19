@@ -32,6 +32,7 @@ for (_y = 0; _y < ySections; _y++) {
 
 // Initialize Our Sections (loading sections as strings into memory)
 scr_InitializeAllSections();
+scr_InitializeAllChunks();
 
 // Create Our Level
 scr_GenerateLevel();
@@ -40,3 +41,4 @@ scr_GenerateLevel();
 ds_list_destroy(sectionLeftBottomRightList);
 ds_list_destroy(sectionLeftRightList);
 ds_list_destroy(sectionLeftTopRightList);
+ds_list_destroy(chunks);

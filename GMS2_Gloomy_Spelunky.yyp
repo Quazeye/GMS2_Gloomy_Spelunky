@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "a02bc21b-1e3e-4cfd-99c7-49af1a4da234",
+            "Value": {
+                "id": "cf3e615b-fbe1-44a4-9c04-2453370c4ec5",
+                "resourcePath": "scripts\\scr_InitializeAllChunks\\scr_InitializeAllChunks.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a0585a22-df91-43ed-8598-de2a671581ca",
             "Value": {
                 "id": "9a072b32-7da0-49a1-a365-ee70455cc92e",
@@ -449,6 +457,7 @@
         "74f144ea-491b-43fd-936b-0266475f16f9",
         "9e208cc4-114c-42f3-a321-c419051e99e9",
         "21f7d2fc-d959-4961-b627-e666668a3659",
+        "a02bc21b-1e3e-4cfd-99c7-49af1a4da234",
         "134564cf-bbd7-40eb-aa80-a487bb149c50"
     ],
     "tutorial": ""

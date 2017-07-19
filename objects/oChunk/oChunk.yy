@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oChunk",
     "eventList": [
-        
+        {
+            "id": "8067d417-5d49-4199-b995-a5fbf0dccea2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "97e85c82-4f5c-4d45-8162-73fd9cb68ebb"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

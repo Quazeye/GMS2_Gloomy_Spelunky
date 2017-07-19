@@ -23,8 +23,16 @@ for (_y = 0; _y < yTiles; _y++) {
 				levelData += "1";
 				break;
 			
+			//case oLadder:
+			//	levelData += "L"
+			//	break;
+			
 			case oRandomBlock:
 				levelData += "R";
+				break;
+				
+			case oChunk:
+				levelData += "C";
 				break;
 		
 		}
