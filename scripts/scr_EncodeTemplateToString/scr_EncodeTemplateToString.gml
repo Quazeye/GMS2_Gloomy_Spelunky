@@ -22,6 +22,10 @@ for (_y = 0; _y < yTiles; _y++) {
 			case oBlock:
 				levelData += "1";
 				break;
+			
+			case oRandomBlock:
+				levelData += "R";
+				break;
 		
 		}
 	}

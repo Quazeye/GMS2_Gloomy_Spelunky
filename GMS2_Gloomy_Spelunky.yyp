@@ -207,11 +207,27 @@
             }
         },
         {
+            "Key": "97e85c82-4f5c-4d45-8162-73fd9cb68ebb",
+            "Value": {
+                "id": "dac9242d-8cea-434b-8cc5-5d4bbfbb3c8b",
+                "resourcePath": "objects\\oChunk\\oChunk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "985a84eb-df52-4611-8f04-4dcdb679cd19",
             "Value": {
                 "id": "fda58cc6-7385-49e4-bd4e-1c74f0dcb398",
                 "resourcePath": "views\/985a84eb-df52-4611-8f04-4dcdb679cd19.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "98f32def-e56f-4792-aeaa-81d7c064c52c",
+            "Value": {
+                "id": "0aaf5b1a-232f-4e87-b6f5-2c22a4bc23b8",
+                "resourcePath": "objects\\oRandomBlock\\oRandomBlock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
